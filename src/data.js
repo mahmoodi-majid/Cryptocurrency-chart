@@ -9,43 +9,43 @@ let xAxisData = [
     },
     {
         "name": 'Mar',
-        "Sale": 12_090
+        "Sale": 120_090
     },
     {
         "name": 'Apr',
-        "Sale": 99_000
+        "Sale": 130_000
     },
     {
         "name": 'May',
-        "Sale": 54_000
+        "Sale": 90_000
     },
     {
         "name": 'Jun',
-        "Sale": 85_000
+        "Sale": 75_000
     },
     {
         "name": 'Jul',
-        "Sale": 34_000
+        "Sale": 134_000
     },
     {
         "name": 'Agu',
-        "Sale": 18_598
+        "Sale": 180_598
     },
     {
         "name": 'Sep',
-        "Sale": 0
+        "Sale": 90_000
     },
     {
         "name": 'Oct',
-        "Sale": 73_078
+        "Sale": 173_078
     },
     {
         "name": 'Nov',
-        "Sale": 12_900
+        "Sale": 80_900
     },
     {
         "name": 'Dev',
-        "Sale": 97_000
+        "Sale": 87_000
     },
 ]
 
