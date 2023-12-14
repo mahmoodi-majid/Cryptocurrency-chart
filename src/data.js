@@ -109,4 +109,39 @@ const transActions = [
     img: "Imgs/profilPh.jpg",
   },
 ];
-export { xAxisData, newMembers, transActions };
+const userRows = [
+  {
+    id: 1,
+    userName: "majid mahmoodi",
+    avatar: "Imgs/profilPh.jpg",
+    status: "non-active",
+    transaction: "$129",
+    email: "majid@gmail.com",
+  },
+  {
+    id: 2,
+    userName: "javad mohamadi",
+    avatar: "Imgs/profilPh.jpg",
+    status: "active",
+    transaction: "$229",
+    email: "javad@gmail.com",
+  },
+  {
+    id: 3,
+    userName: "ali kamalabat",
+    avatar: "Imgs/profilPh.jpg",
+    status: "active",
+    transaction: "$429",
+    email: "ali@gmail.com",
+  },
+  {
+    id: 4,
+    userName: "sina karime",
+    avatar: "Imgs/profilPh.jpg",
+    status: "non-active",
+    transaction: "$29",
+    email: "sina@gmail.com ",
+  },
+];
+
+export { xAxisData, newMembers, transActions, userRows };
