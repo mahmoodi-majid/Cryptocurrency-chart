@@ -12,14 +12,14 @@ export default function UserList() {
     setUserDate(userDatas.filter((user) => user.id != userId));
   };
   const columns = [
-    { field: "id", headerName: "ID", width: 90 },
+    { field: "id", headerName: "ID", width: 60 },
     {
       field: "user",
       headerName: "User",
-      with: 200,
+      width: 200,
       renderCell: (params) => {
         return (
-          <Link to="/">
+          <Link to="/" className="link">
             <div className="userListuser">
               <img src={params.row.avatar} alt="" className="userListImg" />
               {params.row.userName}
@@ -68,8 +68,8 @@ export default function UserList() {
       {/* <DataGrid
         rows={userDatas}
         columns={columns}
-        pageSize = {3}
-        disableRowSelectionOnClick
+        disableSelectionOnClick
+        pageSize={4}
       /> */}
       <DataGrid
         rows={userDatas}
@@ -77,10 +77,11 @@ export default function UserList() {
         initialState={{
           pagination: {
             paginationModel: {
-              pageSize: 4,
+              pageSize: 2,
             },
           },
         }}
+        pageSizeOptions={[5]}
         disableRowSelectionOnClick
       />
     </div>
