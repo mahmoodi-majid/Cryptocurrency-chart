@@ -59,19 +59,19 @@ const newMembers = [
     id: 2,
     userName: "mohamad Amin",
     title: "Developer",
-    img: "Imgs/profilPh.jpg",
+    img: "Imgs/mohamad Amin.jpg",
   },
   {
     id: 3,
     userName: "Sina mahmoodi",
     title: "back Developer ",
-    img: "Imgs/profilPh.jpg",
+    img: "Imgs/Sina mahmoodi.jfif",
   },
   {
     id: 4,
     userName: "Reaza jokar",
     title: "Front Developer",
-    img: "Imgs/profilPh.jpg",
+    img: "Imgs/Reaza jokar.jpg",
   },
 ];
 
@@ -82,7 +82,7 @@ const transActions = [
     date: "12 Jun 2021",
     amount: 23,
     status: "Pending",
-    img: "Imgs/profilPh.jpg",
+    img: "Imgs/Sina mahmoodi.jfif",
   },
   {
     id: 2,
@@ -98,15 +98,15 @@ const transActions = [
     date: "12 Apr 2022",
     amount: 123,
     status: "Approved",
-    img: "Imgs/profilPh.jpg",
+    img: "Imgs/mohamad Amin.jpg",
   },
   {
     id: 4,
-    customer: "MReaza jokar",
+    customer: "Reaza jokar",
     date: "12 Jun 2023",
     amount: 1223,
     status: "Approved",
-    img: "Imgs/profilPh.jpg",
+    img: "Imgs/Reaza jokar.jpg",
   },
 ];
 const userRows = [
@@ -121,7 +121,7 @@ const userRows = [
   {
     id: 2,
     userName: "javad mohamadi",
-    avatar: "Imgs/profilPh.jpg",
+    avatar: "Imgs/javad mohamadi.jpg",
     status: "active",
     transaction: "$229",
     email: "javad@gmail.com",
@@ -129,7 +129,7 @@ const userRows = [
   {
     id: 3,
     userName: "ali kamalabat",
-    avatar: "Imgs/profilPh.jpg",
+    avatar: "Imgs/ali kamalabat.jpg",
     status: "active",
     transaction: "$429",
     email: "ali@gmail.com",
@@ -137,11 +137,14 @@ const userRows = [
   {
     id: 4,
     userName: "sina karime",
-    avatar: "Imgs/profilPh.jpg",
+    avatar: "Imgs/sina karime.jpg",
     status: "non-active",
     transaction: "$29",
     email: "sina@gmail.com ",
   },
 ];
+const products = [
+  {id:1,title:'Asus' }
+]
 
 export { xAxisData, newMembers, transActions, userRows };
