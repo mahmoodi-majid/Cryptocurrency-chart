@@ -59,12 +59,6 @@ export default function Products() {
 
   return (
     <div className="userList">
-      {/* <DataGrid
-        rows={userDatas}
-        columns={columns}
-        disableSelectionOnClick
-        pageSize={4}
-      /> */}
       <DataGrid
         rows={productData}
         columns={columns}

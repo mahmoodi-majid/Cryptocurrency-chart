@@ -144,10 +144,22 @@ const userRows = [
   },
 ];
 const products = [
-  {id:1,title:'Asus' ,avatar : "Imgs/asus.webp" , price : 890 },
-  {id:2,title:'acer' ,avatar : "Imgs/acer.jpg" , price : 1890 },
-  {id:3,title:'dell' ,avatar : "Imgs/dell.jpg" , price : 2890 },
-  {id:4,title:'hp' ,avatar : "Imgs/hp.jpg" , price : 690 },
-]
+  { id: 1, title: "Asus", avatar: "Imgs/asus.webp", price: 890 },
+  { id: 2, title: "acer", avatar: "Imgs/acer.jpg", price: 1890 },
+  { id: 3, title: "dell", avatar: "Imgs/dell.jpg", price: 2890 },
+  { id: 4, title: "hp", avatar: "Imgs/hp.jpg", price: 690 },
+];
+const productsData = [
+  { name: "jan", sales: 4_00 },
+  { name: "Feb", sales: 2200_00 },
+  { name: "Mar", sales: 400_00 },
+];
 
-export { xAxisData, newMembers, transActions, userRows , products };
+export {
+  xAxisData,
+  newMembers,
+  transActions,
+  userRows,
+  products,
+  productsData,
+};
