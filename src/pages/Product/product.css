@@ -62,3 +62,64 @@
 .productInfoValue {
   font-weight: 300;
 }
+.productBottom {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+.productFrom {
+  display: flex;
+  justify-content: space-between;
+}
+.productFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+.productFormLeft > label {
+  margin-bottom: 10px;
+  color: gray;
+}
+.productFormLeft > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+.productFormLeft > input:focus {
+  outline: none;
+}
+.productFormLeft > select {
+  margin-bottom: 10px;
+}
+.productFormRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.productUpLoader {
+  display: flex;
+  align-items: center;
+}
+.productUpLoaderImg {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.productButton {
+  border: none;
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer ;
+}
